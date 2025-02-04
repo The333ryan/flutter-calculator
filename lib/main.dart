@@ -115,6 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Row(
             children: [
               _buildButton('C'),
+              _buildButton('%')
             ],
           ),
         ],
@@ -151,3 +152,5 @@ class _MyHomePageState extends State<MyHomePage> {
 //Copilot seems to have gotten the logic correct
 //Copilot did not do styling though, so the font sizing, weight, colors, etc. are my doing
 //Calculator does indeed handle edge cases, but needs to be cleared after doing so.
+
+//V2: Added modulus operator
